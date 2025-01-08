@@ -117,6 +117,10 @@ cd game-day-notifications
 - SNS_TOPIC_ARN: the ARN of the SNS topic created earlier.
 9. Click Create Function.
 
+**Note:** Import OS  - Access env variables
+Import Json - process the data 
+urllib is used to make calls to API
+Boto3 - allows interaction with aws services like lambda and SNS
 
 ### **Set Up Automation with Eventbridge**
 1. Navigate to the Eventbridge service in the AWS Management Console.
